@@ -1,6 +1,6 @@
 # DDBFusion
 The official implementation of “DDBFusion: An unified image decomposition and fusion framework based on dual decomposition and B ́ezier curves”. 
-And the code will be released soon. Imformation Fusion 2024.
+And the code will be released soon. Imformation Fusion 2025.
 
 <img src="./images/FrameWork.png">
 <img src="./images/Network.png">
