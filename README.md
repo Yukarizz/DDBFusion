@@ -6,9 +6,7 @@ Imformation Fusion 2025.
 <img src="./images/Network.png">
 
 Results of DDBFusion: 
-Link：https://pan.baidu.com/s/1W44qyFggzTllKSQnJk4iGQ 
-Code：y5z7
-
+https://drive.google.com/file/d/1_9TVZNBU9XIg95KbHBY7L7T7SD3KmlXv/view?usp=drive_link
 
 @article{zhang2025ddbfusion,
   title={DDBFusion: An unified image decomposition and fusion framework based on dual decomposition and B{\'e}zier curves},
