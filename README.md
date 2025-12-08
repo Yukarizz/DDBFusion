@@ -28,7 +28,8 @@ python fuse_medical.py
 ```
 
 📂 Results:
-You can download the fusion results of DDBFusion from the link below: Download Results (Google Drive)
+You can download the fusion results of DDBFusion from the link below: [Download Results (Google Drive)](https://drive.google.com/file/d/1_9TVZNBU9XIg95KbHBY7L7T7SD3KmlXv/view?usp=drive_link)
+
 
 📝 Citation
 If you find this work helpful for your research, please consider citing our paper:
