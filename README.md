@@ -1,38 +1,38 @@
-DDBFusion: An Unified Image Decomposition and Fusion Framework
-This is the official implementation of “DDBFusion: An unified image decomposition and fusion framework based on dual decomposition and Bézier curves”, published in Information Fusion 2025.
+# DDBFusion
 
-📖 Framework
-🧠 Network Architecture
-🚀 Usage
-Important Note:
+The official implementation of **“DDBFusion: An unified image decomposition and fusion framework based on dual decomposition and Bézier curves”**.
 
-Our method processes input image pairs by converting them into grayscale latent features for fusion. For color images, we fuse the luminance channel and reconstruct the color details.
+**Information Fusion 2025.**
 
-1. Grayscale Fusion
+![Framework](./images/FrameWork.png)
+![Network](./images/Network.png)
+
+## 🚀 Usage Guidelines
+
+> **Note:** Our method converts input image pairs into grayscale for the decomposition and fusion process.
+
+### 1. Grayscale Image Fusion
 To generate fusion results for grayscale images:
-
-Bash
-
+```bash
 python fuse_gray.py
-2. Color Fusion (General)
-To generate results for color multi-exposure and multi-focus images:
+```
 
-Bash
-
+### 2. Multi-Exposure & Multi-Focus Fusion (Color)
+```bash
 python fuse_rgb.py
-3. Medical Image Fusion
-To generate results for color medical images (e.g., MRI-CT, MRI-PET):
+```
 
-Bash
-
+### 3. Medical Image Fusion (Color)
+```bash
 python fuse_medical.py
-📂 Results
+```
+
+📂 Results:
 You can download the fusion results of DDBFusion from the link below: Download Results (Google Drive)
 
 📝 Citation
 If you find this work helpful for your research, please consider citing our paper:
-
-代码段
+```bash
 
 @article{zhang2025ddbfusion,
   title={DDBFusion: An unified image decomposition and fusion framework based on dual decomposition and B{\'e}zier curves},
@@ -43,3 +43,5 @@ If you find this work helpful for your research, please consider citing our pape
   year={2025},
   publisher={Elsevier}
 }
+
+```
